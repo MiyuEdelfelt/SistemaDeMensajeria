@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Mensajería</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="d-flex flex-column vh-100">
+    <div class="container-fluid flex-grow-1">
+        <div class="row h-100">
+            <!-- Sección de contactos -->
+            <div class="col-3 bg-white border-end d-flex flex-column">
+                <!-- Estado del usuario -->
+                <div class="d-flex justify-content-between align-items-center p-3 border-bottom">
+                    <div class="d-flex align-items-center">
+                        <img src="assets/images/maria.jpg" alt="Img Maria" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">María</span>
+                            <br>
+                            <small class="text-muted">Activa ahora</small>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="far fa-comment-alt me-3"></i>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+                <!-- Botón Nuevo Chat -->
+                <div class="d-flex justify-content-center my-5">
+                    <button class="btn btn-custom">Nuevo Chat</button>
+                </div>
+                
+                <!-- Línea divisoria -->
+                <hr>
+
+                <!-- Lista de contactos -->
+                <div class="list-group list-group-flush overflow-auto flex-grow-1">
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.27.14.jpg" alt="Imagen Juanita" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">Juanita</span><br>
+                            <small class="text-muted">Último mensaje: Hola, ¿cómo estás?</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.32.16.jpg" alt="Imagen Alberto" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">Alberto</span><br>
+                            <small class="text-muted">Último mensaje: Vamos al cine?</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.30.34.jpg" alt="Imagen Ignacio" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">Ignacio</span><br>
+                            <small class="text-muted">Último mensaje: Reunión a las 3?</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.28.30.jpg" alt="Imagen Cristian" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">Cristian</span><br>
+                            <small class="text-muted">Último mensaje: Nos vemos en el partido.</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.32.44.jpg" alt="Imagen Maria Jose" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">María José</span><br>
+                            <small class="text-muted">Último mensaje: Documento enviado, revisa tu correo.</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.31.09.jpg" alt="Imagen Gonzalo" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">Gonzalo</span><br>
+                            <small class="text-muted">Último mensaje: La reunión fue pospuesta.</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.30.54.jpg" alt="Imagen Juan Pablo" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">Juan Pablo</span><br>
+                            <small class="text-muted">Último mensaje: ¿Recibiste mi último mensaje?</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex align-items-center">
+                        <img src="assets/images/Screen Shot 2018-11-28 at 15.28.04.jpg" alt="Imagen Magdalena" class="rounded-circle" width="40" height="40">
+                        <div class="ms-2">
+                            <span class="fw-bold">Magdalena</span><br>
+                            <small class="text-muted">Último mensaje: Feliz cumpleaños!</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección principal -->
+            <div class="col bg-light d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                    <img src="assets/images/hand.png" alt="Logo" class="mb-3" style="max-width: 150px;">
+                    <h1>Comienza el Networking</h1>
+                    <p class="text-muted">Presiona el botón <strong>"Nuevo chat"</strong> para comenzar a crear nuevas redes de contacto para tu empresa o emprendimiento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
